@@ -79,3 +79,13 @@ border-radius: 3px;
     color: var(--primary-color);
     text-decoration: underline;
 }
+@media screen and (max-width:565px) {
+    .recipe-grid .meal:hover .ingridents {
+        visibility: visible;
+        padding: 8px;
+        margin-bottom: 28px;
+        margin-left: 20px;
+        margin-right: 17px;
+    }
+    
+}
