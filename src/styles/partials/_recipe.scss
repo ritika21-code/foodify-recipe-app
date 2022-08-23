@@ -1,0 +1,81 @@
+.recipe-grid {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    .meal {
+        text-align: center;
+        padding: 2px;
+        margin: 13px;
+        box-shadow: 0 2px 4px #4d4d4d;
+        width: 235px;
+        height: 250px;
+        border: 2px solid var(--primary-color);
+border-radius: 5px;
+        .title {
+            text-decoration: underline;
+            font-size: 17px;
+            color: var(--primary-color);
+            padding: 3px;
+        }
+
+
+        .ingridents {
+            border: 2px solid var(--primary-color);
+border-radius: 3px;
+            visibility: hidden;
+
+            .ing {
+                color: var(--primary-color);
+            }
+        }
+
+        &:hover {
+            transition: all  0.3s forwards;
+
+            .ingridents {
+                visibility: visible;
+                padding: 20px;
+                margin-bottom: 28px;
+                margin-left: 20px;
+                margin-right: 17px;
+            }
+
+            display: flex;
+            flex-direction: row;
+            width: 510px;
+            height: 300px;
+            align-items: center;
+
+            .recipe-grid {
+                width: 500px;
+            }
+
+            img {
+                width: 200px;
+                height: 220px;
+            }
+
+        }
+    }
+
+    img {
+        width: 150px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin: 10px;
+        transition: all .4s ease;
+
+        &:hover {
+            transform: scale(1.01);
+        }
+    }
+}
+.found{
+    color: var(--primary-color);
+    text-decoration: underline;
+}

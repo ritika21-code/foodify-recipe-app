@@ -1,0 +1,23 @@
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 160px;
+    &:hover{
+        transform: scale(1.1);
+    }
+   border: 0;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h4{
+        text-align: center;
+    }
+   
+}

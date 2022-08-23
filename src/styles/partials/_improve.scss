@@ -1,0 +1,24 @@
+.section.skills{
+    .col.img{
+        img{width: 100%;
+        }
+    }
+    .col.typography{
+        padding-left: 1em;
+        .skillitem{
+            border-left: .2em solid var(--primary-color);
+            margin-bottom: .5em;
+padding: .1em 0 .1em .5em;
+color: var(--text-light);   
+animation: getanimationduration(4s) slideinright forwards;   
+@for $i from 2 through 7 {
+    &:nth-child(#{$i}){
+        animation-delay: #{$i * .1}s;
+    }  
+}
+}
+.btn{
+    margin-top: .75em;
+}
+} 
+}

@@ -1,0 +1,13 @@
+.section.quote{
+    display: block;
+    .quote-text{
+        font-size: 1.2em;
+        line-height: 1.3;
+        color: var(--text-color);
+    }
+    .author{
+        color: var(--text-light);
+        text-align: right;
+        margin-top: 1em;
+    }
+}
