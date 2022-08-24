@@ -18,7 +18,7 @@ function Newskill() {
            { list.map((item,index)=>(
 <p className='skillitem' key={index}>{item}</p>
             ))}
-                <button className='btn'>  SIGN UP NOW</button></div>
+                </div>
 
 
 

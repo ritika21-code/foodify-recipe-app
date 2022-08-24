@@ -2,7 +2,7 @@ import React from 'react'
 import Recipecard from '../components/Recipecard';
 import Categories from '../components/Categories';
 import { mycontext } from '../components/Context';
-import Info from '../components/Info';
+
 function Recipe() {
   const [searcht, setsearcht] = React.useState("");
   

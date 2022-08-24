@@ -47,8 +47,8 @@ border-radius: 3px;
 
             display: flex;
             flex-direction: row;
-            width: 510px;
-            height: 300px;
+            width: fit-content;
+            height: fit-content;
             align-items: center;
 
             .recipe-grid {
